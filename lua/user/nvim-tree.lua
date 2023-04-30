@@ -39,9 +39,13 @@ nvim_tree.setup {
           untracked = "U",
           deleted = "",
           ignored = "◌",
+          ignore = false,
         },
       },
     },
+  },
+  filters = {
+    dotfiles = false,
   },
   diagnostics = {
     enable = true,
