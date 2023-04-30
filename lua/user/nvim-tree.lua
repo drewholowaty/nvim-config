@@ -39,7 +39,6 @@ nvim_tree.setup {
           untracked = "U",
           deleted = "",
           ignored = "◌",
-          ignore = false,
         },
       },
     },
@@ -47,6 +46,10 @@ nvim_tree.setup {
   filters = {
     dotfiles = false,
   },
+  git = {
+    enable = true,
+    ignore = false,
+  };
   diagnostics = {
     enable = true,
     show_on_dirs = true,
